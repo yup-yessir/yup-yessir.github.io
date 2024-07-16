@@ -1,1 +1,197 @@
+html,
+body {
+  font-size: 16px;
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: 400;
+  margin: auto;
+  color: white;
+}
 
+figcaption {
+  text-align: center;
+  margin: auto;
+  line-height: 2em;
+  font-size: 0.8rem;
+  padding: 30px;
+}
+
+body {
+  background-image: url("background.webp");
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.product {
+  display: flex;
+  flex-grow: 2
+}
+
+.container {
+  flex-grow: 2
+}
+
+
+p {
+  text-align: center;
+  margin: auto;
+  line-height: 2em;
+  padding: 30px;
+}
+h1,
+h2,
+h3 {
+  padding: 0 25%;
+}
+
+#header {
+  text-align: center;
+}
+
+nav {
+  display: inline-flex;
+  word-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  list-style: none;
+  
+}
+
+ul {
+  padding: 10px;
+  background-color: hsla(0, 0%, 16%, 0.5) ;
+}
+
+@media only screen and (min-width: 600px) {
+  .products-photos {
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    justify-items: left;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .head-shot {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .head-shot {
+    margin: auto;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1600px) {
+  .head-shot {
+    margin: auto;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2000px) {
+  .head-shot {
+    margin: auto;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 800px) {
+  .logo {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+  .logo {
+    margin: auto;
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 2000px) {
+  .logo {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+  p {
+    padding: 0 25%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  li {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  p,
+  h1,
+  h2,
+  figcaption {
+    padding: 0 25%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  p,
+  h1,
+  h2,
+  figcaption {
+    padding: 0 450px;
+  }
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.logo .lg {
+  padding: 0;
+}
+
+.logo img {
+  width: 100%;
+  max-height: 750px;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.head-shot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+a: hover {
+  color: black;
+}
+
+.vd {
+  width: 100%;
+}
